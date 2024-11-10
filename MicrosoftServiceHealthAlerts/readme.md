@@ -79,3 +79,9 @@ Logic app GUI will natively escape backlashes, if you need to add backslash lite
 
 ![image](https://github.com/user-attachments/assets/e5802cf2-adfb-438e-909c-8a0f23ba6686)  
 
+
+
+
+# To Improve  
+
+Full parse body rather than just parse body preview
