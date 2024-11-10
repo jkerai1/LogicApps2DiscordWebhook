@@ -24,7 +24,8 @@ But here is the basic Example - we need the HTTP webhook Connector and this json
       "description": "YOUR TEXT",
       "color": 5814783
     }
-  ]
+  ],
+  "attachments": []
 }
 ```
 > Colour is optional  
