@@ -40,7 +40,7 @@ When creating the secret use tags to identify discord and usage
 
 ![image](https://github.com/user-attachments/assets/40ec29e0-c7cc-44fb-8516-29e422061180)
 
-You can leverage a Managed Identity (system or user assigned is up to you - pros and cons. If you are building at scale then I'd go User Assigned) and grant azure access policy to the key vault  
+You can leverage a Managed Identity (system or user assigned is up to you - [pros and cons](https://blog.johnfolberth.com/azure-managed-identities-user-vs-system-assigned/). If you are building at scale then I'd go User Assigned) and grant azure access policy to the key vault  
 
 Assign Managed Identity            |  Key Vault Access Policy
 :-------------------------:|:-------------------------:
@@ -51,7 +51,7 @@ Creating the connection from Logic app by selecting get Secret and switching the
 
 ![image](https://github.com/user-attachments/assets/85f11c73-b8a3-4d3d-95b7-42ee2b43e1e7)  
 
-Because I don't allow Secrets List I need to use Custom Value to add in the secret name:
+Because I don't allow Secrets List I need to use Custom Value to add in the secret name - If you added secrets list you can just select from dropdown menu:
 
 Listing is Forbidden          |  Use Custom Name
 :-------------------------:|:-------------------------:
