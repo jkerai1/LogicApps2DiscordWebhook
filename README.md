@@ -22,8 +22,7 @@ Assign Managed Identity            |  Key Vault Access Policy
 
 Creating the connection from Logic app by selecting get Secret and switching the drop down menu to Managed Identity  
 
-![image](https://github.com/user-attachments/assets/d653028a-812a-4f81-a3fd-f06588169110)
-
+![image](https://github.com/user-attachments/assets/85f11c73-b8a3-4d3d-95b7-42ee2b43e1e7)  
 
 ## Use secure Input/Output in logic app to hide the keys between runs 
 ![image](https://github.com/user-attachments/assets/669c260c-ef79-4eb8-8f07-9322b07e7863)
