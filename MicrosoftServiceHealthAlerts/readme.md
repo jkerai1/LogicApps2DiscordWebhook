@@ -68,6 +68,10 @@ I would recommend using a shared mailbox account then for the m365 route as this
 
 ![image](https://github.com/user-attachments/assets/90661a0f-1471-4f1a-8244-4ae5abada9fd)
 
+> If you need to recreate the trigger - the properties are here:  
+![image](https://github.com/user-attachments/assets/9490f74e-ef76-4e30-8245-3fdb3506b94c)  
+
+
 ## Backslash character
 Logic app GUI will natively escape backlashes, if you need to add backslash literal you need to use CodeView to edit and add in.  
 
