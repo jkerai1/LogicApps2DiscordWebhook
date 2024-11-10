@@ -1,11 +1,11 @@
 # Service Health Alerting - Microsoft
 
 The idea is to bring the Service Health Alerts from Microsoft to discord webhooks. The native UI only supports email. There are other solutions but I believe I have come up with a simple one.    
-> You can also use Teams Channels as mailboxes and send alerts there for native easy solution within Teams without the need for a logic app
-
 This has some challenges - service support admin is required to see these alerts and you can only see health alerts for products you're licensed for.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjkerai1%2FLogicApps2DiscordWebhook%2Frefs%2Fheads%2Fmain%2FMicrosoftServiceHealthAlerts%2Fazuredeploy.json)
+
+> You can also use Teams Channels as mailboxes and send alerts there for native easy solution within Teams without the need for a logic app
 
 # Final Result  
 
