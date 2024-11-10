@@ -1,6 +1,28 @@
 # LogicApps2DiscordWebhook
 Use Logic Apps To Push to Discord Webhooks
 
+# General Structure  
+
+This is a very helpful tool for [formatting the JSON](https://discohook.org/)  
+
+But here is the basic Example - we need the HTTP webhook Connector and this json:
+> You can use generic HTTP also for single fire use-case  
+
+![image](https://github.com/user-attachments/assets/bd6d0f11-4a82-4691-bb50-45f9a759459c)  
+
+```
+{
+  "content": "YOUR TEXT",
+  "embeds": [
+    {
+      "title": "<YOUR TEXT>",
+      "description": "YOUR TEXT",
+      "color": 5814783
+    }
+  ]
+}
+```
+> Colour is optional  
 
 # Generic Guidance
 
