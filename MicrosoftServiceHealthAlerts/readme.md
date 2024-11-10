@@ -12,7 +12,7 @@ This has some challenges - service support admin is required to see these alerts
 
 # The Idea
 
-Use a dummy Mailbox to send emails too (in my case I use a personal mailbox), use a mailbox rule to forward the emails to a folder, monitor the folder for new emails from o365mc@microsoft.com then fire off webhook   
+Use a dummy Mailbox to send emails too (in my case I spun up a new personal Outlook mailbox with an email alias), use a mailbox rule to forward the emails to a folder, monitor the folder for new emails from o365mc@microsoft.com then fire off webhook   
 
 From a tenant licensed with all the features you need navigate to https://admin.microsoft.com/adminportal/home#/servicehealth/:/shdpreferences
 
