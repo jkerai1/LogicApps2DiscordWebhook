@@ -38,8 +38,9 @@ As I put the entire discord webhook URL in the keyvault this is now what my webh
 
 ![image](https://github.com/user-attachments/assets/34d896f4-5b85-4ae4-b086-88a7a6b45652)
 
-## Use secure Input/Output in logic app to hide the keys between runs 
+## Use secure Input/Output in logic app to hide the keys between runs if you aren't using keyvault  
 ![image](https://github.com/user-attachments/assets/669c260c-ef79-4eb8-8f07-9322b07e7863)
+> Otherwise a playbook operator role will be able to see the secrets as they are run
 
 ## Try-Catch
 
