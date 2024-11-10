@@ -85,7 +85,7 @@ Need to push to multiple locations? use parallel branches!
 
 As logic app consumption does not support private endpoints you can set the outbound IPs of the logic app as an allowed IP on the key vault, this isn't a true security control but better than nothing.  
 
-## Use Parse Json to clear immutables  
+## Use Parse Json to declare immutables  
 
 [See Damien Bird - Create variables in your Power Automate Flow or Canvas Power App](https://youtu.be/_YiKCWl_kf0?t=483)  
 
