@@ -24,6 +24,20 @@ Creating the connection from Logic app by selecting get Secret and switching the
 
 ![image](https://github.com/user-attachments/assets/85f11c73-b8a3-4d3d-95b7-42ee2b43e1e7)  
 
+Because I don't allow Secrets List I need to use Custom Value to add in the secret name:
+
+Listing is Forbidden          |  Use Custom Name
+:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/0ab935e1-1fe8-44b4-beca-881f6f298b6b) | ![image](https://github.com/user-attachments/assets/a5f00724-dfe6-407a-a996-d6dfe12073c9)
+
+Make sure to lock input/output from Settings > Security   
+
+![image](https://github.com/user-attachments/assets/c30b86ed-370b-436a-a61f-1ef92aba77fa)
+
+As I put the entire discord webhook URL in the keyvault this is now what my webhook looks like:  
+
+![image](https://github.com/user-attachments/assets/34d896f4-5b85-4ae4-b086-88a7a6b45652)
+
 ## Use secure Input/Output in logic app to hide the keys between runs 
 ![image](https://github.com/user-attachments/assets/669c260c-ef79-4eb8-8f07-9322b07e7863)
 
