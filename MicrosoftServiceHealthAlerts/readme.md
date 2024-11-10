@@ -63,7 +63,8 @@ You can also use a terminate to force all runs to return green:
 ## Outlook
 My example uses a personal mail account so I am using outlook v2, if you're using a microsoft 365 account then you need to use Outlook v3. I created a new email account and assigned it as the email alias  
 
-I would recommend using a shared mailbox account then disabling the account in entra (as its delegated access) for the m365 route as this doesn't require an additional license.
+I would recommend using a shared mailbox account then disabling the account in entra (as its delegated access) for the m365 route as this doesn't require an additional license.  
+
 ![image](https://github.com/user-attachments/assets/90661a0f-1471-4f1a-8244-4ae5abada9fd)
 
 ## Backslash character
