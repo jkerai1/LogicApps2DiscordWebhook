@@ -83,13 +83,18 @@ Need to push to multiple locations? use parallel branches!
 
 ## Network restrictions
 
-As logic app consumption does not support private endpoints you can set the outbound IPs of the logic app as an allowed IP on the key vault, this isn't a true security control but better than nothing.  
+As logic app consumption does not support private endpoints you can set the Connector outbound IPs of the logic app as an allowed IP on the key vault, this isn't a true security control but better than nothing.  
 
 ![image](https://github.com/user-attachments/assets/f474e6d1-37d0-4a27-8153-c076d77a1ed4)
 
 ![image](https://github.com/user-attachments/assets/9a81e3e3-4d39-435f-947d-477667d3363a)
 
 Bear in mind you will need to add your own IP everytime you want to make a change to the keyvault, remember to clear this down after.  
+
+If you are using HTTP trigger and invoking from another logic app this is also a good idea:
+
+![image](https://github.com/user-attachments/assets/d0e52525-e3bf-4335-9807-c1fd84fca182)
+> HTTP Triggers are great for modularity and reuse as you can define a custom JSON
 
 ## Use Parse Json to declare immutables  
 
