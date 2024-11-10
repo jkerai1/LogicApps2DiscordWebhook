@@ -4,6 +4,8 @@ The idea is to bring the Service Health Alerts from Microsoft to discord webhook
 
 This has some challenges - service support admin is required to see these alerts and you can only see health alerts for products you're licensed for.
 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjkerai1%2FLogicApps2DiscordWebhook%2Frefs%2Fheads%2Fmain%2FMicrosoftServiceHealthAlerts%2Fazuredeploy.json)
+
 # Final Result  
 
 ![image](https://github.com/user-attachments/assets/fa36c5cc-024d-4630-922d-ed2499ef37cf)
