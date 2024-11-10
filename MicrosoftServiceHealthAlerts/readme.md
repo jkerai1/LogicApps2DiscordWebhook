@@ -30,7 +30,7 @@ Next we can create the webhook with POST - there is a gotcha logic app gui may e
 
 ![image](https://github.com/user-attachments/assets/d321f470-7915-49fa-8427-a3a78d46fb6f)
 
-Subscribe Body
+Subscribe Body - we need to duplicate the body preview and i use the position of "\r\n\r\n" + 4 to find the position I need to crop the string from  
 ```
 {
   "content": "@{triggerBody()?['Subject']}",
