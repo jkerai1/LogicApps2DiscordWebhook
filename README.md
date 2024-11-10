@@ -1,3 +1,8 @@
+[![GitHub stars](https://img.shields.io/github/stars/jkerai1/LogicApps2DiscordWebhook?style=flat-square)](https://github.com/jkerai1/LogicApps2DiscordWebhook/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jkerai1/LogicApps2DiscordWebhook?style=flat-square)](https://github.com/jkerai1/LogicApps2DiscordWebhook/network)
+[![GitHub issues](https://img.shields.io/github/issues/jkerai1/LogicApps2DiscordWebhook?style=flat-square)](https://github.com/jkerai1/LogicApps2DiscordWebhook/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/LogicApps2DiscordWebhook?style=flat-square)](https://github.com/jkerai1/LogicApps2DiscordWebhook/pulls)  
+
 # LogicApps2DiscordWebhook
 Use Logic Apps To Push to Discord Webhooks
 
