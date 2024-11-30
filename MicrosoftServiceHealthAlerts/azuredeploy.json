@@ -85,7 +85,7 @@
                                 "method": "POST",
                                 "uri": "@body('Get_secret')?['value']",
                                 "body": {
-                                    "content": "@{triggerBody()?['Subject']}",
+                                    "content": "@{triggerBody()?['Subject']} -  [Link to ServiceHealth](https://admin.microsoft.com/Adminportal/Home#/servicehealth)",
                                     "embeds": [
                                         {
                                             "title": "Description",
