@@ -36,7 +36,7 @@ Next we can create the webhook with POST - there is a gotcha logic app gui may e
 Subscribe Body - we need to duplicate the body preview and i use the position of "\r\n\r\n" + 4 to find the position I need to crop the string from  
 ```
 {
-  "content": "@{triggerBody()?['Subject']}",
+  "content": "@{triggerBody()?['Subject']} -  [Link to ServiceHealth](https://admin.microsoft.com/Adminportal/Home#/servicehealth)",
   "embeds": [
     {
       "title": "Description",
