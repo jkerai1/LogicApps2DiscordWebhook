@@ -36,17 +36,15 @@ Next we can create the webhook with POST - there is a gotcha logic app gui may e
 Subscribe Body - we need to duplicate the body preview and i use the position of "\r\n\r\n" + 4 to find the position I need to crop the string from  
 ```
 {
-  "content": "@{triggerBody()?['Subject']} -  [Link to ServiceHealth](https://admin.microsoft.com/Adminportal/Home#/servicehealth)",
-  "embeds": [
-    {
-      "title": "Description",
-      "description": "@{substring(triggerBody()?['BodyPreview'],add(indexOf(triggerBody()?['BodyPreview'], '
-
-'),4))}",
-      "color": 5814783
-    }
-  ]
-}
+                            "content": "@{triggerBody()?['Subject']} -  [Link to ServiceHealth](https://admin.microsoft.com/Adminportal/Home#/servicehealth)",
+                            "embeds": [
+                                {
+                                    "title": "Description",
+                                    "description": "@{substring(triggerBody()?['BodyPreview'],add(indexOf(triggerBody()?['BodyPreview'], '\r\n'),3))}",
+                                    "color": 5814783
+                                }
+                            ]
+                        }
 ```
 The final result (from Code View)| Final Result (Design view)
 :-------------------------:|:-------------------------:
