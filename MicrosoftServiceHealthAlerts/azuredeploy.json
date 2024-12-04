@@ -89,7 +89,7 @@
                                     "embeds": [
                                         {
                                             "title": "Description",
-                                            "description": "@{substring(triggerBody()?['BodyPreview'],add(indexOf(triggerBody()?['BodyPreview'], '\r\n\r\n'),4))}",
+                                            "description": "@{substring(triggerBody()?['BodyPreview'],add(indexOf(triggerBody()?['BodyPreview'], '\r\n\r\n'),3))}",
                                             "color": 5814783
                                         }
                                     ]
