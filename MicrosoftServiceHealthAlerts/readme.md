@@ -17,9 +17,12 @@ Use a dummy Mailbox to send emails too (in my case I spun up a new personal Outl
 
 From a tenant licensed with all the features you need navigate to https://admin.microsoft.com/adminportal/home#/servicehealth/:/shdpreferences
 
-https://admin.microsoft.com/adminportal/home#/servicehealth/:/shdpreferences
+![image](https://github.com/user-attachments/assets/d1b3609e-3d2f-44b9-b508-af14f6c8818e)
+
 
 Input the email you want to use  
+![image](https://github.com/user-attachments/assets/1fad1ebd-68bc-4789-87d3-2ef00312771d)
+
 
 > Optional: Set a mailbox rule ![image](https://github.com/user-attachments/assets/f9640c4c-a1c9-4b37-a561-5e96bfbe14db)
 
