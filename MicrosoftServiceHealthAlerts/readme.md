@@ -25,6 +25,9 @@ Input the email you want to use
 
 
 > Optional: Set a mailbox rule ![image](https://github.com/user-attachments/assets/f9640c4c-a1c9-4b37-a561-5e96bfbe14db)
+> Also optional set up teams mailbox for internal team comms:   ![image](https://github.com/user-attachments/assets/075ed017-8fc8-43b5-8924-b3899a639b88) ![image](https://github.com/user-attachments/assets/fe49173a-2750-4df1-b1c9-2be1c9e5ce5b)
+
+
 
 From Logic app we can create a new trigger - in my case I use outlook v2 as its a personal account, as my emails go into the ServiceHealth folder from the mail rule I select this as my folder
 ![image](https://github.com/user-attachments/assets/d6c293d3-8f90-43d3-8990-8e90a6840d2b)
