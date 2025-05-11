@@ -4,7 +4,9 @@
 [![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/LogicApps2DiscordWebhook?style=flat-square)](https://github.com/jkerai1/LogicApps2DiscordWebhook/pulls)  
 
 # LogicApps2DiscordWebhook
-Use Logic Apps To Push to Discord Webhooks
+Use Logic Apps To Push to Discord Webhooks  
+
+See also [CanaryTokens to Sentinel](https://github.com/jkerai1/CanaryTokensToSentinel)
 
 # General Structure  
 
